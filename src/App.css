@@ -14,6 +14,14 @@ body {
         
 }
 
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
 .register-container {
         display: flex;
         align-items: center;
@@ -24,16 +32,25 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
 }
 
 
 .login-div {
         width:430px;
         height: 500px;
-        padding: 60px 35px 35px 35px;
+        padding: 35px 35px 35px 35px;
         border-radius: 10px;
         background: radial-gradient(circle, #696868, #535353, #505050, #4e4e4e, #4c4c4c);
       }
+
+.log-div {
+  width:430px;
+  height: 430px;
+  padding: 35px 35px 35px 35px;
+  border-radius: 10px;
+  background: radial-gradient(circle, #696868, #535353, #505050, #4e4e4e, #4c4c4c);
+}
 
       .title {
         text-align: center;
@@ -54,9 +71,30 @@ body {
         color: #1f1e1e;
       }
 
+      .mid-text {
+        text-align: center;
+        font-size:15px;
+        padding-top: 7px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #f9f9f9;
+      }
+
+      .mide-text {
+        margin-bottom: 15px;
+        text-align: center;
+        font-size:15px;
+        padding-top: 7px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #f9f9f9;
+      }
+
       .fields{
         width: 100%;
-        padding: 100px 5px 30px 5px;
+        padding: 40px 5px 30px 5px;
       }
 
       .fields input {
